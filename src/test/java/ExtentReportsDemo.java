@@ -59,6 +59,7 @@ public class ExtentReportsDemo {
         else {
             test.log(Status.SKIP, result.getTestName());
         }
+
     }
     @AfterTest
     public void tearDown() {
